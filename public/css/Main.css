@@ -1,0 +1,151 @@
+/* Fonts */
+:root {
+    --font-default: Roboto
+    --font-primary: Inter, sans-serif;
+    --font-secondary: Poppins, sans-serif;
+}
+
+/* Colors */
+:root {
+    --color-default: #0a0d13;
+    --color-primary: #265d4f;
+    --color-secondary: #0e1d34;
+}
+
+/* Smooth scroll behavior */
+:root {
+    scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: var(--font-default);
+    color: var(--color-default);
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #406aff;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-default);
+}
+
+/*--------------------------------------------------------------
+# Login
+--------------------------------------------------------------*/
+
+#login .img-login {
+   position: absolute;
+  left: 0;
+  top: 0;
+  width: 864px;
+  height: 1117px;
+  background-image:/* webpackIgnore: true */ url("../img/car3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#login .img-login .rectangle {
+    opacity: 0.4;
+    position: absolute;
+    left: 61px;
+    top: 86px;
+    width: 742px;
+    height: 383px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#login .img-login .herotext {
+    position: absolute;
+    left: 118px;
+    top: 141px;
+    width: 578px;
+    height: 215px;
+    flex-direction: column;
+}
+
+#login .img-login .textblock {
+  color: #000;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+
+#login .img-login .textblock2 {
+    color: #000;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+}
+
+#login .img-login .minitext {
+    color: #000;
+    font-size: 28px;
+    font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 118px;
+    top: 370px;
+    width: 585px;
+    height: 43px;
+    flex-direction: column;
+}
+
+#login .img-login .logo {
+  position: absolute;
+  left: 1130px;
+  top: 163px;
+  width: 68.6558px;
+  height: 91.5377px;
+  overflow: visible;
+}
+
+#login .img-login .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+#login .img-login .logo-name h1 {
+    color: #000;
+  font-size: 50px;
+  font-family: Sanchez, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1229px;
+  top: 179px;
+  width: 228px;
+  height: 60px;
+  flex-direction: column;
+}
+/*--------------------------------------------------------------
+# Footer 
+--------------------------------------------------------------*/
+#footer img {
+    width: 80px;
+    height: 91.5px;
+}
+#footer h1 {
+    color: #ffffff;
+}
+
+#footer {
+    background-color: #000000;
+}
