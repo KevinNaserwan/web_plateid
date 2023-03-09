@@ -135,6 +135,124 @@ h6 {
   height: 60px;
   flex-direction: column;
 }
+
+#login .img-login .logo-name .register-text {
+    color: #000;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1003px;
+  top: 344px;
+  width: 122px;
+  height: 38px;
+  flex-direction: column;
+}
+
+#login .img-login .name1 .first {
+    color: #444;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 1004px;
+    top: 421px;
+    width: 87px;
+    height: 24px;
+    flex-direction: column;
+}
+
+#login .img-login .name2 .last {
+    color: #444;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 1317px;
+    top: 421px;
+    width: 87px;
+    height: 24px;
+    flex-direction: column;
+}
+
+#login .img-login .name1 .inputfirstname {
+    position: absolute;
+    left: 1004px;
+    top: 458px;
+    width: 280px;
+    height: 41px;
+    outline: solid 1px #0000004d;
+    outline-offset: -1px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#login .img-login .name2 .inputlastname {
+    position: absolute;
+    left: 1317px;
+    top: 458px;
+    width: 280px;
+    height: 41px;
+    outline: solid 1px #0000004d;
+    outline-offset: -1px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#login .img-login .email .email {
+    color: #444;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1004px;
+  top: 538px;
+  width: 111px;
+  height: 21px;
+  flex-direction: column;
+}
+
+#login .img-login .password .password {
+    color: #444;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1004px;
+  top: 649px;
+  width: 111px;
+  height: 21px;
+  flex-direction: column;
+}
+
+#login .img-login .email .inputemail {
+    position: absolute;
+  left: 1004px;
+  top: 572px;
+  width: 593px;
+  height: 41px;
+  outline: solid 1px #0000004d;
+  outline-offset: -1px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+#login .img-login .password .inputpassword {
+    position: absolute;
+  left: 1004px;
+  top: 683px;
+  width: 593px;
+  height: 41px;
+  outline: solid 1px #0000004d;
+  outline-offset: -1px;
+  border-radius: 5px;
+  background-color: #fff;
+}
 /*--------------------------------------------------------------
 # Footer 
 --------------------------------------------------------------*/

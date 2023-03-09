@@ -23,7 +23,26 @@
                     </div>
                     <div class="logo-name">
                         <h1>PLATEID</h1>
+                        <h1 class="register-text">Register</h1>
                     </div>
+                    <form action="" method="post">
+                        <div class="name1">
+                            <label for="firstname" class="first">First Name</label>
+                            <input type="text" placeholder="Your first name" class="inputfirstname" required>
+                        </div>
+                        <div class="name2">
+                            <label for="lastname" class="last">Last Name</label>
+                            <input type="text" placeholder="Your last name" class="inputlastname" required>
+                        </div>
+                        <div class="email">
+                            <label for="email" class="email">Email</label>
+                            <input type="email" placeholder="Your email address" class="inputemail" required>
+                        </div>
+                        <div class="password">
+                            <label for="password" class="password">Password</label>
+                            <input type="password" placeholder="Your password" class="inputpassword" required>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
