@@ -184,10 +184,15 @@ h6 {
     top: 458px;
     width: 280px;
     height: 41px;
+    padding-left: 15px;
     outline: solid 1px #0000004d;
-    outline-offset: -1px;
+  outline-offset: -1px;
     border-radius: 5px;
     background-color: #fff;
+    border: 1px solid #e5e5e5;
+    font-weight: 600;
+    font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
 }
 
 #login .img-login .name2 .inputlastname {
@@ -196,10 +201,15 @@ h6 {
     top: 458px;
     width: 280px;
     height: 41px;
+    padding-left: 15px;
     outline: solid 1px #0000004d;
     outline-offset: -1px;
     border-radius: 5px;
     background-color: #fff;
+    border: 1px solid #e5e5e5;
+    font-weight: 600;
+    font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
 }
 
 #login .img-login .email .email {
@@ -236,10 +246,15 @@ h6 {
   top: 572px;
   width: 593px;
   height: 41px;
+  padding-left: 15px;
   outline: solid 1px #0000004d;
   outline-offset: -1px;
   border-radius: 5px;
   background-color: #fff;
+  border: 1px solid #e5e5e5;
+  font-weight: 600;
+    font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
 }
 
 #login .img-login .password .inputpassword {
@@ -248,11 +263,237 @@ h6 {
   top: 683px;
   width: 593px;
   height: 41px;
+  padding-left: 15px;
   outline: solid 1px #0000004d;
   outline-offset: -1px;
   border-radius: 5px;
   background-color: #fff;
+  border: 1px solid #e5e5e5;
+  font-weight: 600;
+    font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
 }
+
+#login .img-login .switch-label {
+  position: absolute;
+  left: 1004px;
+  top: 760px;
+}
+
+#login .img-login .term {
+  position: absolute;
+  left: 1083px;
+  top: 764px;
+  width: 384px;
+  height: 17px;
+  flex-direction: column;
+}
+
+#login .img-login .labelwrapper {
+  font-size: 16px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+
+#login .img-login .labelwrapper .label1 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+
+#login .img-login .labelwrapper .label2 {
+  color: #ce9f59;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+
+#login .img-login .labelwrapper .label3 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+
+#login .img-login .labelwrapper .label4 {
+  color: #ce9f59;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+
+
+#login .img-login .submit .button {
+  position: absolute;
+  left: 1003px;
+  top: 832px;
+  width: 204px;
+  height: 42px;
+  border-radius: 10px;
+  background-image: linear-gradient(102.9deg, #ce9f59ff 0%, #294a51ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+
+#login .img-login .submit .button:Hover {
+  position: absolute;
+  left: 1003px;
+  top: 832px;
+  width: 204px;
+  height: 42px;
+  border-radius: 10px;
+  background-image: linear-gradient(102.9deg, #ce9f59ff 0%, #294a51ff 100%);
+  opacity:0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+
+#login .img-login .submit .button h5 {
+  font-weight:600;
+  margin-top:6px;
+  margin-left: 16px;
+}
+
+#login .img-login .imgcreate {
+  position: absolute;
+  left: 1016px;
+  top: 840px;
+  width: 26.6619px;
+  height: 26.6619px;
+  overflow: visible;
+}
+
+#login .img-login .imgcreate img {
+  width: 100%;
+  height: 100%;
+}
+
+#login .img-login .line {
+  position: absolute;
+  left: 995px;
+  top: 915px;
+  width: 596px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  overflow: visible;
+}
+
+#login .img-login .line img {
+  width: 100%;
+  height: 100%;
+}
+
+#login .img-login .login {
+  position: absolute;
+  left: 1155px;
+  top: 937px;
+  width: 276px;
+  height: 17px;
+  flex-direction: column;
+}
+
+#login .img-login .login .labelwrapper2 {
+  font-size: 16px;
+  font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  flex-shrink: 1;
+}
+
+#login .img-login .login .labelwrapper2 .label5 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+#login .img-login .login .labelwrapper2 .label6 {
+  color: #ce9f59;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+/*--------------------------------------------------------------
+# Switch
+--------------------------------------------------------------*/
+
+.switch {
+  --secondary-container: #CE9F59;
+  --primary: #ffffff;
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.7em;
+  height: 1.8em;
+ }
+ 
+ .switch input {
+  display: none;
+  opacity: 0;
+  width: 0;
+  height: 0;
+ }
+ 
+ .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #313033;
+  transition: .2s;
+  border-radius: 30px;
+ }
+ 
+ .slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 20px;
+  left: 0.2em;
+  bottom: 0.2em;
+  background-color: #aeaaae;
+  transition: .4s;
+ }
+ 
+ input:checked + .slider::before {
+  background-color: var(--primary);
+ }
+ 
+ input:checked + .slider {
+  background-color: var(--secondary-container);
+ }
+ 
+ input:focus + .slider {
+  box-shadow: 0 0 1px var(--secondary-container);
+ }
+ 
+ input:checked + .slider:before {
+  transform: translateX(1.9em);
+ }
+
 /*--------------------------------------------------------------
 # Footer 
 --------------------------------------------------------------*/

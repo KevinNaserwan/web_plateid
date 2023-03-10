@@ -42,7 +42,38 @@
                             <label for="password" class="password">Password</label>
                             <input type="password" placeholder="Your password" class="inputpassword" required>
                         </div>
+                        <div class="switch-label">
+                            <label class="switch">
+                                <input type="checkbox" required>
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="term">
+                            <p class="labelwrapper">
+                                <span class="label1">I accept the</span>
+                                <span class="label2">Term of Service</span>
+                                <span class="label3"> as well as </span>
+                                <span class="label4">Privacy Policy</span>
+                            </p>
+                        </div>
+                        <div class="submit">
+                            <button class="button" type="submit">
+                                <h5>Create Button</h5>
+                            </button>
+                        </div>
+                        <div class="imgcreate">
+                            <img src="img/create.png" alt="">
+                        </div>
                     </form>
+                    <div class="line">
+                        <img src="img/line.png" alt="">
+                    </div>
+                    <div class="login">
+                        <p class="labelwrapper2">
+                            <span class="label5">Already have an account ?</span>
+                            <a href="" class="label6"> Login Now</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
