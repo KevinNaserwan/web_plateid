@@ -34,6 +34,40 @@
             </div>
             <div class="imagecar">
             </div>
+            <div class="stats">
+                <h1>Statistics</h1>
+            </div>
+            <div class="plate">
+                <p>
+                    <span class="label1">+ 120</span>
+                    <span class="label2"> Plate Has</span>
+                    <span class="label3">Recognized</span>
+                </p>
+            </div>
+            <div class="type">
+                <p>
+                    <span class="label4">More than </span>
+                    <span class="label5">10</span>
+                    <span class="label6"> Type of Cars</span>
+                </p>
+            </div>
+        </div>
+        <div class="about">
+            ABOUT PLATE ID RECOGNIZE
+        </div>
+        <div class="about-content">
+            PlateID is a powerful online platform for license plate recognition. With PlateID, you
+            can easily identify
+            license plates and retrieve important information about the vehicle and its owner. Our website is designed
+            to be
+            user-friendly and intuitive, making it easy for you to quickly and accurately recognize license plates.
+            Whether
+            you&#39;re a law enforcement officer, parking attendant, or just a concerned citizen, PlateID has the tools
+            you
+            need to get the job done.
+        </div>
+        <div class="vector">
+            <img src="img/vector1.png" alt="">
         </div>
     </section>
 @endsection

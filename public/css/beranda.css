@@ -196,3 +196,143 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.texthero .stats {
+    position: absolute;
+    left: 140px;
+    top: 766px;
+    width: 482px;
+    height: 327px;
+    background-color: #1a1a1a;
+}
+
+.texthero .stats h1 {
+    color: #fff;
+    font-size: 22px;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    position: absolute;
+    flex-direction: column;
+    padding-top: 36px;
+    padding-left: 58px;
+}
+
+.texthero .plate {
+    position: absolute;
+    left: 194px;
+    top: 846px;
+    width: 261px;
+    height: 87px;
+    flex-direction: column;
+}
+
+.texthero .plate p {
+    font-size: 30px;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    flex-shrink: 1;
+}
+
+.texthero .plate p .label1 {
+    color: #ce9f59;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+.texthero .plate p .label2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+.texthero .plate p .label3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    padding-bottom: 10px;
+}
+
+.texthero .type {
+    position: absolute;
+    left: 194px;
+    top: 950px;
+    width: 302px;
+    height: 87px;
+    flex-direction: column;
+}
+
+.texthero .type p {
+    font-size: 30px;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    flex-shrink: 1;
+}
+
+.texthero .type p .label4 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+.texthero .type p .label5 {
+    color: #ce9f59;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+.texthero .type p .label6 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+.about {
+    color: #fff;
+    font-size: 53px;
+    font-weight: 600;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    position: absolute;
+    left: 128px;
+    top: 1277px;
+    width: 370px;
+    height: min-content;
+    flex-direction: column;
+}
+
+.about-content {
+    color: #fff;
+    font-size: 19px;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    position: absolute;
+    left: 647px;
+    top: 1286px;
+    width: 827px;
+    height: min-content;
+    flex-direction: column;
+}
+
+.vector {
+    position: absolute;
+    left: 1425px;
+    top: 439px;
+    width: 172.6px;
+    height: 122.8px;
+    overflow: visible;
+}
+
+.vector img {
+}
