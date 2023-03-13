@@ -25,6 +25,8 @@
 
     <!-- Template Main CSS File -->
     <link href="css/Main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/beranda.css">
+    <link rel="stylesheet" href="css/clapy.css">
 
 </head>
 

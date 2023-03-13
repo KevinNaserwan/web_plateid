@@ -21,6 +21,11 @@ class SessionController extends Controller
         return view('Page/login');
     }
 
+    function beranda()
+    {
+        return view('Page/beranda');
+    }
+
     function create(Request $request)
     {
         Session::flash('firstname', $request->firstname);

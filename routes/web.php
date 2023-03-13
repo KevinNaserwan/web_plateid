@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('Page/login');
 // });
 
+Route::get('/', [SessionController::class, 'beranda']);
 Route::get('/register', [SessionController::class, 'register']);
 Route::get('/login', [SessionController::class, 'login']);
 Route::post('/create', [SessionController::class, 'create']);
