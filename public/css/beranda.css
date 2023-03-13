@@ -325,7 +325,7 @@
     flex-direction: column;
 }
 
-.vector {
+.vector .a {
     position: absolute;
     left: 1425px;
     top: 439px;
@@ -334,5 +334,11 @@
     overflow: visible;
 }
 
-.vector img {
+.vector .b {
+    position: absolute;
+    left: -103px;
+    top: 1106px;
+    width: 312.6px;
+    height: 113.8px;
+    overflow: visible;
 }

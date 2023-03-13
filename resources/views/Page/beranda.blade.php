@@ -67,7 +67,8 @@
             need to get the job done.
         </div>
         <div class="vector">
-            <img src="img/vector1.png" alt="">
+            <img src="img/vector1.png" alt="" class="a">
+            <img src="img/vector2.png" alt="" class="b">
         </div>
     </section>
 @endsection
