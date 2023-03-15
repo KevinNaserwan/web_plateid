@@ -25,7 +25,8 @@
                         <h1>PLATEID</h1>
                         <h1 class="register-text">Register</h1>
                     </div>
-                    <form action="/create" method="post">
+                    <form action="/register/submit" method="POST">
+                        @csrf
                         <div class="name1">
                             <label for="firstname" class="first">First Name</label>
                             <input type="text" placeholder="Your first name" name="firstname" class="inputfirstname"
