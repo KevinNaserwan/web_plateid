@@ -52,7 +52,7 @@ h6 {
    position: absolute;
   left: 0;
   top: 0;
-  width: 864px;
+  width: 762px;
   height: 1117px;
   background-image:/* webpackIgnore: true */ url("../img/car3.jpg");
   background-position: center;
@@ -65,7 +65,7 @@ h6 {
     position: absolute;
     left: 61px;
     top: 86px;
-    width: 742px;
+    width: 665px;
     height: 383px;
     border-radius: 10px;
     background-color: #fff;
@@ -75,14 +75,14 @@ h6 {
     position: absolute;
     left: 118px;
     top: 141px;
-    width: 578px;
+    width: 490px;
     height: 215px;
     flex-direction: column;
 }
 
 #login .img-login .textblock {
   color: #000;
-  font-size: 50px;
+  font-size: 44px;
   font-weight: 600;
   font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
@@ -98,12 +98,12 @@ h6 {
 
 #login .img-login .minitext {
     color: #000;
-    font-size: 28px;
+    font-size: 23px;
     font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     position: absolute;
     left: 118px;
-    top: 370px;
+    top: 360px;
     width: 585px;
     height: 43px;
     flex-direction: column;
@@ -111,7 +111,7 @@ h6 {
 
 #login .img-login .logo {
   position: absolute;
-  left: 1130px;
+  left: 1000px;
   top: 163px;
   width: 68.6558px;
   height: 91.5377px;
@@ -129,7 +129,7 @@ h6 {
   font-family: Sanchez, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   position: absolute;
-  left: 1229px;
+  left: 1097px;
   top: 179px;
   width: 228px;
   height: 60px;
@@ -143,7 +143,7 @@ h6 {
   font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   position: absolute;
-  left: 1003px;
+  left: 882px;
   top: 344px;
   width: 122px;
   height: 38px;
@@ -157,7 +157,7 @@ h6 {
     font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     position: absolute;
-    left: 1004px;
+    left: 883px;
     top: 421px;
     width: 87px;
     height: 24px;
@@ -171,7 +171,7 @@ h6 {
     font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
       'Liberation Sans', sans-serif;
     position: absolute;
-    left: 1317px;
+    left: 1196px;
     top: 421px;
     width: 87px;
     height: 24px;
@@ -180,7 +180,7 @@ h6 {
 
 #login .img-login .name1 .inputfirstname {
     position: absolute;
-    left: 1004px;
+    left: 883px;
     top: 458px;
     width: 280px;
     height: 41px;
@@ -197,7 +197,7 @@ h6 {
 
 #login .img-login .name2 .inputlastname {
     position: absolute;
-    left: 1317px;
+    left: 1196px;
     top: 458px;
     width: 280px;
     height: 41px;
@@ -219,7 +219,7 @@ h6 {
   font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   position: absolute;
-  left: 1004px;
+  left:883px;
   top: 538px;
   width: 111px;
   height: 21px;
@@ -233,7 +233,7 @@ h6 {
   font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   position: absolute;
-  left: 1004px;
+  left: 883px;
   top: 649px;
   width: 111px;
   height: 21px;
@@ -242,7 +242,7 @@ h6 {
 
 #login .img-login .email .inputemail {
     position: absolute;
-  left: 1004px;
+  left: 883px;
   top: 572px;
   width: 593px;
   height: 41px;
@@ -259,7 +259,7 @@ h6 {
 
 #login .img-login .password .inputpassword {
     position: absolute;
-  left: 1004px;
+  left: 883px;
   top: 683px;
   width: 593px;
   height: 41px;
@@ -276,17 +276,17 @@ h6 {
 
 #login .img-login .switch-label {
   position: absolute;
-  left: 1004px;
+  left: 896px;
   top: 760px;
 }
 
 #login .img-login .term {
   position: absolute;
-  left: 1083px;
-  top: 764px;
-  width: 384px;
-  height: 17px;
-  flex-direction: column;
+left: 985px;
+top: 763px;
+width: 384px;
+height: 17px;
+flex-direction: column;
 }
 
 #login .img-login .labelwrapper {
@@ -331,7 +331,7 @@ h6 {
 
 #login .img-login .submit .button {
   position: absolute;
-  left: 1003px;
+  left: 884px;
   top: 832px;
   width: 204px;
   height: 42px;
@@ -375,7 +375,7 @@ h6 {
 
 #login .img-login .imgcreate {
   position: absolute;
-  left: 1016px;
+  left: 896px;
   top: 840px;
   width: 26.6619px;
   height: 26.6619px;
@@ -389,7 +389,7 @@ h6 {
 
 #login .img-login .line {
   position: absolute;
-  left: 995px;
+  left: 883px;
   top: 915px;
   width: 596px;
   max-width: 100%;
@@ -405,7 +405,7 @@ h6 {
 
 #login .img-login .login {
   position: absolute;
-  left: 1155px;
+  left: 1055px;
   top: 937px;
   width: 276px;
   height: 17px;
@@ -494,18 +494,8 @@ h6 {
  input:checked + .slider:before {
   transform: translateX(1.9em);
  }
+ 
 
 /*--------------------------------------------------------------
 # Footer 
 --------------------------------------------------------------*/
-#footer img {
-    width: 80px;
-    height: 91.5px;
-}
-#footer h1 {
-    color: #ffffff;
-}
-
-#footer {
-    background-color: #000000;
-}
