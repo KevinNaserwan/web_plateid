@@ -25,9 +25,9 @@
     <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.min.css">
 
     <!-- Template Main CSS File -->
-    <link href="css/Main.css" rel="stylesheet">
     <link rel="stylesheet" href="css/beranda.css">
     <link rel="stylesheet" href="css/clapy.css">
+    <link rel="stylesheet" href="css/login.css">
 
 </head>
 

@@ -76,7 +76,7 @@
                     <div class="login">
                         <p class="labelwrapper2">
                             <span class="label5">Already have an account ?</span>
-                            <a href="" class="label6"> Login Now</a>
+                            <a href="/login" class="label6"> Login Now</a>
                         </p>
                     </div>
                 </div>
