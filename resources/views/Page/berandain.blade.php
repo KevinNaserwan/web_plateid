@@ -10,7 +10,7 @@
                     <a href="">Home</a>
                 </div>
                 <div class="Account">
-                    <a href="">Account</a>
+                    <a href="/users">Account</a>
                 </div>
                 <div class="Contact">
                     <a href=""> Contact</a>

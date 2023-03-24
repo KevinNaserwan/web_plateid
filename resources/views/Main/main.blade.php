@@ -28,6 +28,7 @@
     <link href="css/Main.css" rel="stylesheet">
     <link rel="stylesheet" href="css/berandain.css">
     <link rel="stylesheet" href="css/clapy.css">
+    <link rel="stylesheet" href="css/admin.css">
 
 </head>
 

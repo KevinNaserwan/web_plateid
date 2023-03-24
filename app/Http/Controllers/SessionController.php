@@ -31,4 +31,14 @@ class SessionController extends Controller
     {
         return view('Page/berandain');
     }
+
+    function admin()
+    {
+        return view('CRUD/admin');
+    }
+
+    function user()
+    {
+        return view('CRUD/users');
+    }
 }

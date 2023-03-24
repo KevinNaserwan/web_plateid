@@ -39,3 +39,7 @@ Route::get('/main', [SessionController::class, 'berandain']);
 
 // Route untuk logout
 Route::get('/sesi/logout', [AuthController::class, 'logout']);
+
+//Route untuk ke menu admin
+Route::get('/admin', [SessionController::class, 'admin']);
+Route::get('/users', [SessionController::class, 'user']);

@@ -1,0 +1,44 @@
+.berandaadmin .pagetitle {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+    position: absolute;
+    left: 137px;
+    top: 240px;
+    width: 317px;
+    height: 125px;
+    flex-direction: column;
+}
+
+.berandaadmin {
+    position: relative;
+    width: 1600px;
+    height: 1713px;
+    align-items: flex-start;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.berandaadmin .menuadmin {
+    position: absolute;
+    left: 68px;
+    top: 350px;
+    width: 371px;
+    height: 1275.0089px;
+    border-radius: 22px;
+    background-color: #ce9f59;
+}
+
+.berandaadmin .contentadmin {
+    position: absolute;
+    left: 456px;
+    top: 350px;
+    width: 985px;
+    height: 1275px;
+    border-radius: 22px;
+    background-color: #ce9f59;
+}
