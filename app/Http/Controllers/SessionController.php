@@ -26,4 +26,9 @@ class SessionController extends Controller
     {
         return view('Page/beranda');
     }
+
+    function berandain()
+    {
+        return view('Page/berandain');
+    }
 }

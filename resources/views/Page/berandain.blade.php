@@ -1,4 +1,4 @@
-@extends('Main/app')
+@extends('Main/main')
 @section('konten')
     <section class="beranda clapyResets">
         <div class="navbar" data-aos="fade-down">
@@ -17,10 +17,13 @@
                 </div>
             </div>
             <div class="masuk">
-                <a href="/login" class="textlogin">Login</a>
+                <img src="img/profile.jpg" alt="" class="textlogin">
             </div>
             <div class="register">
-                <a href="/register" class="textregister">Register</a>
+                <a href="/register" class="textregister">{{ session('user_name') }}</a>
+            </div>
+            <div class="logout">
+                <a href="/sesi/logout" class="textlogout">Logout</a>
             </div>
         </div>
         <div class="texthero">
@@ -35,8 +38,8 @@
                 </div>
             </div>
             <div class="learn" data-aos="fade-up">
-                <a href="/login">Learn More</a>
-                <a href="/login"><img src="img/arrow.png" alt=""></a>
+                <a href="http://127.0.0.1:5000">Learn More</a>
+                <a href="http://127.0.0.1:5000"><img src="img/arrow.png" alt=""></a>
             </div>
             <div class="imagecar" data-aos="zoom-out">
             </div>

@@ -25,22 +25,22 @@
                         <h1>PLATEID</h1>
                         <h1 class="register-text">Register</h1>
                     </div>
-                    <form action="/register/submit" method="POST">
+                    <form action="/register" method="POST">
                         @csrf
                         <div class="name1">
                             <label for="firstname" class="first">First Name</label>
                             <input type="text" placeholder="Your first name" name="firstname" class="inputfirstname"
-                                required value="{{ Session::get('firstname') }}">
+                                required>
                         </div>
                         <div class="name2">
                             <label for="lastname" class="last">Last Name</label>
                             <input type="text" placeholder="Your last name" name="lastname" class="inputlastname"
-                                required value="{{ Session::get('lastname') }}">
+                                required>
                         </div>
                         <div class="email">
                             <label for="email" class="email">Email</label>
                             <input type="email" placeholder="Your email address" name="email" class="inputemail"
-                                required value="{{ Session::get('email') }}">
+                                required>
                         </div>
                         <div class="password">
                             <label for="password" class="password">Password</label>

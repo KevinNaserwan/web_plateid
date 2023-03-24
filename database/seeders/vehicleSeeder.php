@@ -14,6 +14,8 @@ class vehicleSeeder extends Seeder
     public function run(): void
     {
         //
-        DB::table('vehicle')->insert();
+        DB::table('vehicle')->insert(
+            []
+        );
     }
 }

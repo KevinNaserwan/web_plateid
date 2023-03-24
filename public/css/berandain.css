@@ -70,23 +70,45 @@
     font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
         "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
     position: absolute;
-    left: 1128px;
-    top: 71px;
-    width: 92px;
-    height: 37px;
+    left: 1091px;
+    top: 61px;
+    width: 60px;
+    height: 60px;
     flex-direction: column;
+    border-radius: 50%;
 }
 
 .navbar .register {
     position: absolute;
-    left: 1257px;
+    left: 1155px;
     top: 60px;
-    width: 143px;
+    width: 289px;
+    height: 63px;
+    /* background-color: #ce9f59; */
+}
+
+.navbar .register .textregister {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    position: absolute;
+    padding-top: 11px;
+    padding-left: 26px;
+    flex-direction: column;
+}
+
+.navbar .logout {
+    position: absolute;
+    left: 1308px;
+    top: 60px;
+    width: 133px;
     height: 63px;
     background-color: #ce9f59;
 }
 
-.navbar .register .textregister {
+.navbar .logout .textlogout {
     color: #fff;
     font-size: 24px;
     font-weight: 600;
