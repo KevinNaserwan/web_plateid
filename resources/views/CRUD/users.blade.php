@@ -31,7 +31,7 @@
         </div>
         <div class="menuadmin">
             <h1>Personal Information &gt;</h1>
-            <a href="">Go To Admin Page</a>
+            <a href="/sesi">Go To Admin Page</a>
         </div>
         <div class="contentadmin">
             <div class="frame">

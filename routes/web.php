@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\SessionController;
+use App\Http\Controllers\SiswaController;
 use Illuminate\Routing\Route as RoutingRoute;
 use Illuminate\Support\Facades\Route;
 
@@ -19,6 +20,8 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('Page/login');
 // });
+
+Route::resource('siswa', SiswaController::class);
 
 Route::resource('user', AuthController::class);
 
@@ -45,3 +48,10 @@ Route::get('/sesi/logout', [AuthController::class, 'logout']);
 //Route untuk ke menu admin
 Route::get('/admin', [SessionController::class, 'admin']);
 Route::get('/users', [SessionController::class, 'user']);
+
+//Route Admin
+Route::get('/sesi', [SessionController::class,  'index']);
+Route::post('/sesi/login', [SessionController::class, 'login1']);
+Route::get('/sesi/logout', [SessionController::class, 'logout']);
+Route::get('/sesi/register', [SessionController::class, 'register1']);
+Route::post('/sesi/create', [SessionController::class, 'create']);
