@@ -20,6 +20,8 @@ use Illuminate\Support\Facades\Route;
 //     return view('Page/login');
 // });
 
+Route::resource('user', AuthController::class);
+
 // Route utama
 Route::get('/', [SessionController::class, 'beranda']);
 

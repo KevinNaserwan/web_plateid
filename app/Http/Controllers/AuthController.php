@@ -61,7 +61,19 @@ class AuthController extends Controller
         ];
 
         $user = User::where('email', $request->email)->first();
-        session(['user_name' => $user->firstname]);
+        session(
+            ['user_name' => $user->firstname],
+        );
+
+        $user = User::where('email', $request->email)->first();
+        session(
+            ['last_name' => $user->lastname],
+        );
+
+        $user = User::where('email', $request->email)->first();
+        session(
+            ['data_email' => $user->email],
+        );
 
         if (Auth::attempt($infologin)) {
             return redirect('/main');
@@ -74,5 +86,28 @@ class AuthController extends Controller
     {
         Auth::logout();
         return redirect('/');
+    }
+
+    public function edit(Request $request)
+    {
+        $data = User::where('email', $request->email)->first();
+        return view('siswa/edit')->with('data', $data);
+    }
+
+    public function update(Request $request)
+    {
+        $request->validate([
+            'firstname' => 'required',
+            'lastname' => 'required',
+            'email' => 'required'
+        ]);
+        $data = [
+            'firstname' => $request->input('firstname'),
+            'lastname' => $request->input('lastname'),
+            'email' => $request->input('email')
+        ];
+
+        User::where('email', $request->email)->update($data);
+        return redirect('/users')->with('success', 'Berhasil Melakukan Update Data');
     }
 }

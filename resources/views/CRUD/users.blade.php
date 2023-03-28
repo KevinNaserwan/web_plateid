@@ -7,10 +7,10 @@
             </div>
             <div class="menu">
                 <div class="Home">
-                    <a href="">Home</a>
+                    <a href="/main">Home</a>
                 </div>
                 <div class="Account">
-                    <a href="/admin">Account</a>
+                    <a href="/users">Account</a>
                 </div>
                 <div class="Contact">
                     <a href=""> Contact</a>
@@ -30,9 +30,24 @@
             USERS
         </div>
         <div class="menuadmin">
-
+            <h1>Personal Information &gt;</h1>
+            <a href="">Go To Admin Page</a>
         </div>
-        <div class="contentadmin"></div>
+        <div class="contentadmin">
+            <div class="frame">
+                <ul>
+                    <li class="firstname">FirstName</li>
+                    <li class="lastname">lastname</li>
+                    <li class="email">Email</li>
+                </ul>
+                <div class="line"></div>
+                <ul>
+                    <li class="firstnameisi">{{ session('user_name') }}</li>
+                    <li class="lastnameisi">{{ session('last_name') }}</li>
+                    <li class="emailisi">{{ session('data_email') }}</li>
+                </ul>
+            </div>
+        </div>
     </section>
     <footer class="end">
         <div class="logo">
