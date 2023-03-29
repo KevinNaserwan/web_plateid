@@ -110,6 +110,7 @@ class SiswaController extends Controller
         $data = [
             'firstname' => $request->input('firstname'),
             'lastname' => $request->input('lastname'),
+            'email' => $request->input('email')
         ];
         User::where('firstname', $email)->update($data);
         return redirect('/siswa')->with('success', 'Berhasil Melakukan Update Data');

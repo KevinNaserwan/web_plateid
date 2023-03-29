@@ -1,29 +1,20 @@
 @extends('layout/aplikasi2')
 @section('isi')
     <a href="/siswa" class="btn btn-secondary">Kembali</a>
-    <form method="POST" action="{{ '/siswa/' . $data->nomor_induk }}" enctype="multipart/form-data">
+    <form method="POST" action="{{ '/siswa/' . $data->firstname }}" enctype="multipart/form-data">
         @csrf
         @method('PUT')
         <div class="mb-3">
-            <h1>Nomor Induk: {{ $data->nomor_induk }}</h1>
+            <label for="firstname" class="form-label">FirstName</label>
+            <input type="text" class="form-control" name="firstname" id="firstname" value="{{ $data->firstname }}">
         </div>
         <div class="mb-3">
-            <label for="nama" class="form-label">Nama</label>
-            <input type="text" class="form-control" name="nama" id="nama" value="{{ $data->nama }}">
+            <label for="lastname" class="form-label">LastName</label>
+            <input type="text" class="form-control" name="lastname" id="lastname" value="{{ $data->lastname }}">
         </div>
         <div class="mb-3">
-            <label for="alamat" class="form-label">Alamat</label>
-            <textarea class="form-control" name="alamat">{{ $data->alamat }}</textarea>
-        </div>
-        @if ($data->foto)
-            <div class="mb-3">
-                <img style="max-width: 50px; max-height:50px
-                " src="{{ url('foto') . '/' . $data->foto }}">
-            </div>
-        @endif
-        <div class="mb-3">
-            <label for="foto" class="form-label">Foto</label>
-            <input type="file" class="form-control" name="foto" id="foto">
+            <label for="nama" class="form-label">Email</label>
+            <input type="text" class="form-control" name="email" id="email" value="{{ $data->email }}">
         </div>
         <div class="mb-3">
             <button type="submit" class="btn btn-primary">UPDATE</button>

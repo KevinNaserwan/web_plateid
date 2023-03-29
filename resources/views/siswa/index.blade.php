@@ -20,7 +20,7 @@
                     <td><a class="btn btn-secondary btn-sm" href="{{ url('/siswa/' . $item->firstname) }}">Detail</a>
                         <a class="btn btn-warning btn-sm" href="{{ url('/siswa/' . $item->firstname . '/edit') }}">Edit</a>
                         <form onsubmit="return confirm('Yakin mau hapus data?')" class="d-inline"
-                            action="{{ '/siswa/' . $item->email }}" method="POST">
+                            action="{{ '/siswa/' . $item->firstname }}" method="POST">
                             @csrf
                             @method('DELETE')
                             <button class="btn btn-danger btn-sm" type="submit">Del</button>

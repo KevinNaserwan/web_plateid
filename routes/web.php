@@ -23,8 +23,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::resource('siswa', SiswaController::class);
 
-Route::resource('user', AuthController::class);
-
 // Route utama
 Route::get('/', [SessionController::class, 'beranda']);
 

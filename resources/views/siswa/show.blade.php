@@ -2,12 +2,14 @@
 @section('isi')
     <div>
         <a class="btn btn-danger btn-sm" href="/siswa">Kembali</a>
-        <h1>{{ $data->nama }}</h1>
         <p>
-            <b>Nomor Induk</b>{{ $data->nomor_induk }}
+            <b>FirstName</b><br>{{ $data->firstname }}
         </p>
         <p>
-            <b>Alamat</b>{{ $data->alamat }}
+            <b>Lastname</b><br>{{ $data->lastname }}
+        </p>
+        <p>
+            <b>Email</b><br>{{ $data->email }}
         </p>
     </div>
 @endsection
