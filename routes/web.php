@@ -44,7 +44,6 @@ Route::get('/main', [SessionController::class, 'berandain']);
 Route::get('/sesi/logout', [AuthController::class, 'logout']);
 
 //Route untuk ke menu admin
-Route::get('/admin', [SessionController::class, 'admin']);
 Route::get('/users', [SessionController::class, 'user']);
 
 //Route Admin

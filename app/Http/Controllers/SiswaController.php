@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Plate;
 use App\Models\siswa;
 use App\Models\User;
 use Database\Seeders\SiswaSeeder;
@@ -20,7 +21,7 @@ class SiswaController extends Controller
     public function index()
     {
         //
-        $data = User::orderby('firstname', 'desc')->paginate(5);
+        $data = Plate::orderby('nama_pemilik', 'desc')->paginate(10);
         return view('siswa/index')->with('data', $data);
     }
 
@@ -42,26 +43,30 @@ class SiswaController extends Controller
      */
     public function store(Request $request)
     {
-        Session::flash('firstname', $request->firstname);
-        Session::flash('lastname', $request->lastname);
-        Session::flash('email', $request->email);
+        Session::flash('nomorplat', $request->nomor_plat);
+        Session::flash('namapemilik', $request->nama_pemilik);
+        Session::flash('brand', $request->brand);
+        Session::flash('type', $request->type);
+        Session::flash('manufactureyear', $request->manufacture_year);
+        Session::flash('cc', $request->cc);
+        Session::flash('color', $request->color);
+        Session::flash('fueltype', $request->fuel_type);
+        Session::flash('registyear', $request->regist_year);
+        Session::flash('dateexp', $request->date_exp);
 
-        $request->validate([
-            'firstname' => 'required',
-            'lastname' => 'required',
-            'email' => 'required'
-        ], [
-            'firstname.required' => 'Nama depan wajib diisi',
-            'lastname.required' => 'Nama belakang wajib diisi',
-            'email.required' => 'Email wajib diisi'
-
-        ]);
         $data = [
-            'firstname' => $request->input('firstname'),
-            'lastname' => $request->input('lastname'),
-            'email' => $request->input('email')
+            'nomorplat' => $request->input('nomor_plat'),
+            'namapemilik' => $request->input('nama_pemilik'),
+            'brand' => $request->input('brand'),
+            'type' => $request->input('type'),
+            'manufactureyear' => $request->input('manufacture_year'),
+            'cc' => $request->input('cc'),
+            'color' => $request->input('color'),
+            'fueltype' => $request->input('fuel_type'),
+            'registyear' => $request->input('regist_year'),
+            'dateexp' => $request->input('date_exp')
         ];
-        User::create($data);
+        Plate::create($data);
         return redirect('siswa')->with('success', 'Berhasil Memasukkan Data');
     }
 
@@ -71,10 +76,10 @@ class SiswaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($email)
+    public function show($namapemilik)
     {
         //
-        $data = User::where('firstname', $email)->first();
+        $data = Plate::where('nama_pemilik', $namapemilik)->first();
         return view('siswa/show')->with('data', $data);
     }
 
@@ -84,9 +89,9 @@ class SiswaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($email)
+    public function edit($namapemilik)
     {
-        $data = User::where('firstname', $email)->first();
+        $data = Plate::where('nama_pemilik', $namapemilik)->first();
         return view('siswa/edit')->with('data', $data);
     }
 
@@ -97,22 +102,21 @@ class SiswaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $email)
+    public function update(Request $request, $namapemilik)
     {
-        $request->validate([
-            'firstname' => 'required',
-            'lastname' => 'required',
-            'email' => 'required',
-        ], [
-            'firstname.required' => 'Nama depan wajib diisi',
-            'lastname.required' => 'Nama belakang wajib diisi'
-        ]);
         $data = [
-            'firstname' => $request->input('firstname'),
-            'lastname' => $request->input('lastname'),
-            'email' => $request->input('email')
+            'nomorplat', $request->input('nomor_plat'),
+            'namapemilik' => $request->input('nama_pemilik'),
+            'brand' => $request->input('brand'),
+            'type' => $request->input('type'),
+            'manufactureyear' => $request->input('manufacture_year'),
+            'cc' => $request->input('cc'),
+            'color' => $request->input('color'),
+            'fueltype' => $request->input('fuel_type'),
+            'registyear' => $request->input('regist_year'),
+            'dateexp' => $request->input('date_exp')
         ];
-        User::where('firstname', $email)->update($data);
+        Plate::where('nomor_plat', $namapemilik)->update($data);
         return redirect('/siswa')->with('success', 'Berhasil Melakukan Update Data');
     }
 
@@ -122,11 +126,10 @@ class SiswaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($email)
+    public function destroy($nomorplat)
     {
-        $data = User::where('firstname', $email)->first();
-        File::delete(public_path('foto') . '/' . $data->foto);
-        User::where('firstname', $email)->delete();
+        $data = Plate::where('nomor_plat', $nomorplat)->first();
+        Plate::where('nomor_plat', $nomorplat)->delete();
         return redirect('/siswa')->with('success', 'Data Berhasil Dihapus');
     }
 }
